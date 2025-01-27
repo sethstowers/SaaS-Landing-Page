@@ -21,11 +21,11 @@ export const Header = ({navModalOpen, setNavModalOpen}:{navModalOpen: any, setNa
             <Image src={Logo} alt="SaaS Logo" height={40} width={40} />
             <MenuIcon className="h-7 w-7 md:hidden"  onClick={() => setNavModalOpen(true)} />
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
-              <a href="">About</a>
-              <a href="">Features</a>
-              <a href="">Customers</a>
-              <a href="">Updates</a>
-              <a href="">Help</a>
+              <a  className="cursor-default">About</a>
+              <a  className="cursor-default">Features</a>
+              <a  className="cursor-default">Customers</a>
+              <a  className="cursor-default">Updates</a>
+              <a  className="cursor-default">Help</a>
               <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
                 Get for free
               </button>
