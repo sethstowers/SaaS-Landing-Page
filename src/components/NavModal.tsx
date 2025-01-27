@@ -4,7 +4,7 @@ import Logo from "@/assets/logosaas.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const NavModal = ({ navModalOpen, setNavModalOpen }) => {
+const NavModal = ({navModalOpen, setNavModalOpen}:{navModalOpen: any, setNavModalOpen: any}) => {
   return (
     <motion.div
     key={navModalOpen}
