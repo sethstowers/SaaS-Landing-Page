@@ -3,7 +3,7 @@ import Logo from "@/assets/logosaas.png";
 import Image from "next/image";
 import MenuIcon from "@/assets/menu.svg";
 
-export const Header = ({navModalOpen, setNavModalOpen}) => {
+export const Header = ({navModalOpen, setNavModalOpen}:{navModalOpen: any, setNavModalOpen: any}) => {
   return (
     <header className={`sticky top-0 ${navModalOpen ? '' : 'backdrop-blur-sm' } z-20`}>
       <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
